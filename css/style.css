@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blueviolet;
+    background-image: url(../image/dots.png);
+    background-repeat: repeat;
+}
+
+.container h1 {
+    color: #FFD1E3;
+    font-size: 5rem;
+}
+
+.container p {
+    color: #092635;
+    font-size: 3rem;
+
+}
+
+.container button {
+    background-color: #161A30;
+    color: white;
+    font-size: 2rem;
+    text-transform: capitalize;
+    border-radius: 5%;
+    border: 2px solid #B6BBC4;
+}
+
+.info {
+    
+    text-align: left;
+    position: relative;
+
+
+}
+
+.card-body p {
+    position: absolute;
+    top: 25%;
+}
+image{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+a:hover{
+    color: blueviolet;
+    text-decoration:underline;
+}
+/* .quote_place{
+    border: 2px solid darkblue;
+    background-color: #092635;
+} */
+.card{
+    border: 20px solid black;
+}
